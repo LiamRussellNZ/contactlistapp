@@ -36,6 +36,9 @@ refresh();
 
 	$scope.update=function(){
 		console.log($scope.contact.id);
+		$http.put('/contactlist/'+$scope.contact.id,$scope.contact).success(function(response){
+			refresh();
+		});
 	};
 
 }]);
