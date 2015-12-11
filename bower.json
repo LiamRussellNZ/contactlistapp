@@ -1,0 +1,24 @@
+{
+  "name": "contactlistapp",
+  "description": "Contacts app",
+  "main": "server.js",
+  "authors": [
+    "aliasneo"
+  ],
+  "license": "ISC",
+  "moduleType": [
+    "globals",
+    "node"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4"
+  }
+}
